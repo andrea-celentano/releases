@@ -8,8 +8,6 @@
 // mlibrary
 #include "goptions.h"
 
-// qt
-#include <QApplication>
 
 // c++
 #include <map>
@@ -18,11 +16,6 @@ using namespace std;
 // geant4
 #include "G4MTRunManager.hh"
 
-// this gemc version
-#define GEMC_VERSION "3.0.beta"
-
-// loads the option map
-map<string, GOption> defineOptions();
 
 // distinguishing between graphical and batch mode
 QCoreApplication* createQtApplication(int &argc, char *argv[], bool gui);

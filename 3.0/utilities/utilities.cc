@@ -14,13 +14,6 @@
 #include "gstring.h"
 using namespace gstring;
 
-// distinguishing between graphical and batch mode
-QCoreApplication* createQtApplication(int &argc, char *argv[], bool gui)
-{
-	if(!gui)
-		return new QCoreApplication(argc, argv);
-	return new QApplication(argc, argv);
-}
 
 
 // loads a qt resource (images)
