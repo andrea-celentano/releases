@@ -1,7 +1,6 @@
 #ifndef GUTILITIES_H
 #define GUTILITIES_H 1
 
-#define GEMCLOGMSGITEM  " ⌘"
 
 // gemc
 #include "gDetectorConstruction.h"
